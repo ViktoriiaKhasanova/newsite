@@ -1,0 +1,207 @@
+@font-face {
+  font-family: neris_light;
+  src: url("./assets/fonts/neris_light.otf");
+}
+body main .bottom-part .card img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: neris_light, Arial, "Times New Roman", sans-serif;
+  font-weight: lighter;
+  background-image: url("./assets/images/bgi.png");
+  background-color: white;
+  background-size: cover;
+}
+body main {
+  max-width: 1170px;
+  width: 100%;
+  margin: 70px auto auto auto;
+  padding: 20px;
+}
+body main .upper-part {
+  max-width: 1170px;
+  width: 100%;
+}
+body main .upper-part .block {
+  width: 23.7%;
+}
+body main .upper-part .block h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+body main .upper-part .block span {
+  font-size: 24px;
+  line-height: 32px;
+}
+body main .upper-part .block .exception {
+  padding-right: 20px;
+}
+body main .upper-part .block .green {
+  color: #70BB3B;
+}
+body main .title {
+  margin-top: 40px;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: bold;
+}
+body main .bottom-part {
+  margin-top: 50px;
+  width: 100%;
+}
+body main .bottom-part .card {
+  width: 23.7%;
+  background: white;
+  box-shadow: 0 20px 40px rgba(193, 193, 193, 0.3);
+  border-radius: 2px;
+}
+body main .bottom-part .card .wrapper {
+  padding: 14px;
+}
+body main .bottom-part .card .wrapper .address h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+body main .bottom-part .card .wrapper .address span {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #767676;
+}
+body main .bottom-part .card .wrapper .info {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body main .bottom-part .card .wrapper .info .line1, body main .bottom-part .card .wrapper .info .line2, body main .bottom-part .card .wrapper .info .line3 {
+  width: 100%;
+  margin-top: 5px;
+}
+body main .bottom-part .card .wrapper .info .line1 .left, body main .bottom-part .card .wrapper .info .line2 .left, body main .bottom-part .card .wrapper .info .line3 .left {
+  font-size: 14px;
+  line-height: 20px;
+  color: #767676;
+}
+body main .bottom-part .card .wrapper .info .line1 .right, body main .bottom-part .card .wrapper .info .line2 .right, body main .bottom-part .card .wrapper .info .line3 .right {
+  font-weight: bold;
+}
+body main .bottom-part .card .wrapper .button {
+  width: 238px;
+  height: 40px;
+  background: white;
+  border: 2px solid #FF8743;
+  border-radius: 100px;
+}
+body main .bottom-part .card .wrapper .button:hover {
+  background-color: #FF8743;
+}
+body main .bottom-part .card .wrapper .button:hover a {
+  color: white;
+}
+body main .bottom-part .card .wrapper .button a {
+  margin: auto;
+  text-decoration: none;
+  color: #FF8743;
+  font-weight: bold;
+}
+body main .bottom-part .card .wrapper .more a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #70BB3B;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  body main {
+    margin: auto;
+    max-width: 768px;
+  }
+  body main .upper-part {
+    flex-flow: wrap;
+    max-width: 767px;
+    width: 100%;
+  }
+  body main .upper-part .block {
+    text-align: center;
+    width: 50%;
+  }
+  body main .upper-part .block h1 {
+    font-size: 40px;
+  }
+  body main .upper-part .block span {
+    font-size: 18px;
+  }
+  body main .title {
+    text-align: center;
+    font-size: 44px;
+  }
+  body main .bottom-part {
+    flex-flow: wrap;
+  }
+  body main .bottom-part .card {
+    width: 45%;
+    margin: 30px auto auto auto;
+  }
+  body main .bottom-part .card .button {
+    margin: auto;
+    max-width: 100%;
+  }
+  body main .bottom-part .card .button:focus {
+    background-color: #FF8743;
+  }
+  body main .bottom-part .card .button:focus a {
+    color: white;
+  }
+}
+@media screen and (max-width: 767px) {
+  body main {
+    margin: auto;
+    max-width: 500px;
+  }
+  body main .upper-part {
+    flex-flow: wrap;
+    max-width: 767px;
+    width: 100%;
+  }
+  body main .upper-part .block {
+    text-align: center;
+    width: 100%;
+  }
+  body main .upper-part .block h1 {
+    font-size: 40px;
+  }
+  body main .upper-part .block span {
+    font-size: 18px;
+  }
+  body main .title {
+    text-align: center;
+    font-size: 32px;
+  }
+  body main .bottom-part {
+    flex-flow: wrap;
+  }
+  body main .bottom-part .card {
+    width: 90%;
+    margin: 30px auto auto auto;
+  }
+  body main .bottom-part .card .button {
+    margin: auto;
+    max-width: 100%;
+  }
+  body main .bottom-part .card .button:focus {
+    background-color: #FF8743;
+  }
+  body main .bottom-part .card .button:focus a {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
